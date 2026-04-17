@@ -435,6 +435,11 @@ of code below the Schedule `<h2>` header below with
   This workshop is teaching a lesson in <a href="https://carpentries-lab.org/">The Carpentries Lab</a>.
 </p>
 {% include custom-schedule.html %}
+{% elsif site.carpentry == "cp" %}
+<p>
+  This workshop is teaching a lesson in <a href="https://carpentries-lab.org/">The Carpentries Lab</a>.
+</p>
+{% include custom-schedule.html %}
 {% endif %}
 
 {% comment %}
