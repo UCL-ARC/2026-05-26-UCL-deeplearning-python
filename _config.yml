@@ -19,7 +19,7 @@
 # When setting this field to "incubator", please uncomment the
 # incubator_lesson_site, incubator_pre_survey, and incubator_post_survey
 # lines further down this file and add the URL to the relevant lesson site.
-carpentry: "incubator"
+carpentry: "dc"
 
 # This option is currently only needed for
 # Data Carpentry and Software Carpentry workshops.
@@ -62,13 +62,13 @@ title: "Introduction to Deep Learning with Python at UCL"
 # in The Carpentries Incubator).
 #
 # For an Incubator workshop, uncomment the line below and add the URL of the lesson site.
-incubator_lesson_site: "https://carpentries-lab.github.io/deep-learning-intro/"
+#incubator_lesson_site: "https://carpentries-lab.github.io/deep-learning-intro/"
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your pre-workshop survey
-incubator_pre_survey: ""
+#incubator_pre_survey: ""
 #
 # For an Incubator workshop, uncomment the line below and add the URL of your post-workshop survey
-incubator_post_survey: ""
+#incubator_post_survey: ""
 #
 #------------------------------------------------------------
 
