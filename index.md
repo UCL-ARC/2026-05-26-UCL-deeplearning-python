@@ -35,7 +35,6 @@ double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-
 {% comment %}
 Check DC curriculum
 {% endcomment %}
@@ -71,7 +70,6 @@ Various booking systems are available. They are shown in the config above, if th
 {% include booking/pretix.html %}
 {% endif %}
 
-
 {% comment %}
 EVENTBRITE
 
@@ -94,7 +92,6 @@ displayed if the 'eventbrite' field in the header is not set.
     });
 </script>
 {% endif %}
-
 
 <h2 id="general">General Information</h2>
 
@@ -161,7 +158,7 @@ LOCATION
 
 This block displays the address and links to maps showing directions
 if the latitude and longitude of the workshop have been set.  You
-can use https://www.latlong.net/ to find the lat/long of an
+can use <https://www.latlong.net/> to find the lat/long of an
 address.
 {% endcomment %}
 {% assign begin_address = page.address | slice: 0, 4 | downcase  %}
@@ -238,7 +235,7 @@ special instructions.
 <p id="accessibility">
   <strong>Accessibility:</strong>
   We are committed to making this workshop
-  accessible to everybody. 
+  accessible to everybody.
 {% if online == "false" %}
   The workshop organizers have checked that:
 <p>
@@ -248,19 +245,19 @@ special instructions.
   </ul>
 {% endif %}
 </p>
-<p>We are dedicated to providing a positive and accessible learning environment for all. 
-  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
-  However, we do want to help create an inclusive, accessible experience for all participants. 
+<p>We are dedicated to providing a positive and accessible learning environment for all.
+  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information.
+  However, we do want to help create an inclusive, accessible experience for all participants.
   We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-  To request an accommodation for this workshop, please fill out the 
+  To request an accommodation for this workshop, please fill out the
   <a href="https://carpentries.typeform.com/to/B2OSYaD0">accommodation request form</a>.
   If you have questions or need assistance with the accommodation form please <a href="mailto:team@carpentries.org">email us</a>.
 </p>
 <p>
-  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
-  for computing and data science terms. The glossary helps 
-  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
-  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
+  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary
+  for computing and data science terms. The glossary helps
+  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it
+  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers
   for their learners.
 </p>
 
@@ -316,9 +313,10 @@ Move the 'endcomment' tag above the beginning of the following
 <p> tag to make this section visible.
 
 Edit the text to match who can attend the workshop. For instance:
+
 - This workshop is open to affiliates to ABC university.
 - This workshop is open to the public.
-- If you are interested in attending this workshop, contact me@example.com
+- If you are interested in attending this workshop, contact <me@example.com>
   for more information
 
 <p id="who-can-attend">
@@ -345,19 +343,18 @@ Everyone who participates in Carpentries activities is required to conform to th
 </p>
 <hr/>
 
-
 {% comment %}
 Collaborative Notes
 
 If you want to use an Etherpad, go to
 
-https://pad.carpentries.org/YYYY-MM-DD-site
+<https://pad.carpentries.org/YYYY-MM-DD-site>
 
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
 
 Note we also have a CodiMD (the open-source version of HackMD)
-available at https://codimd.carpentries.org
+available at <https://codimd.carpentries.org>
 {% endcomment %}
 {% if page.collaborative_notes %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
@@ -367,7 +364,6 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 </p>
 <hr/>
 {% endif %}
-
 
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
@@ -394,7 +390,6 @@ change the value of `carpentry` to `incubator`.
 {% endif %}
 
 <hr/>
-
 
 {% comment %}
 SCHEDULE
@@ -454,7 +449,6 @@ The lesson taught in this workshop is being piloted and a precise schedule is ye
 
 <hr/>
 
-
 {% comment %}
 SETUP
 
@@ -492,6 +486,7 @@ please preview your site before committing, and make sure to run
 
 {% comment %}
 For online workshops, the section below provides:
+
 - installation instructions for the Zoom client
 - recommendations for setting up Learners' workspace so they can follow along
   the instructions and the videoconferencing
