@@ -4,7 +4,7 @@ The notebookes have been tested and validated on UCL’s Unified AI platform, a 
 
 The notebooks should also run in any standard environment, provided that the required dependencies are installed.
 
-If you need support with AI platforms, with or without GPUs, Carpentries training, or any other computing-related resources, please do not hesitate to contact the ARC Collaborations team at ARC.Collaborations@ucl.ac.uk.
+If you need support with AI platforms, with or without GPUs, Carpentries training, or any other computing-related resources, please do not hesitate to contact [ARC Collaborations team](mailto:ARC.Collaborations@ucl.ac.uk).
 
 ## Notebooks
 
